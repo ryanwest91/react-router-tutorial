@@ -4,6 +4,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import NavLink from './NavLink.js'
 
+
 export default React.createClass({
   render() {
     return (
@@ -15,6 +16,9 @@ export default React.createClass({
     			</li>
     			<li>
     				<NavLink to="/repos">Repos</NavLink>
+    			</li>
+    			<li>
+    				<NavLink to="/" onlyActiveOnIndex>Home</NavLink>
     			</li>
     		</ul>
 

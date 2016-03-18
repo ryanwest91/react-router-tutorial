@@ -12,10 +12,10 @@ export default React.createClass({
 				<h2>Repos</h2>
 				<ul>
 					<li>
-						<NavLink to="repos/rackt/react-router">React Router</NavLink>
+						<NavLink to="/repos/rackt/react-router">React Router</NavLink>
 					</li>
 					<li>
-						<NavLink to="repos/facebook/react">React</NavLink>
+						<NavLink to="/repos/facebook/react">React</NavLink>
 					</li>
 				</ul>
 
